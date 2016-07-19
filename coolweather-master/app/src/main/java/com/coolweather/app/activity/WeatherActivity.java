@@ -160,7 +160,7 @@ public class WeatherActivity extends Activity implements OnClickListener{
 			}
 			
 			@Override
-			public void onError(Excption e) {
+			public void onError(Exception e) {
 				runOnUiThread(new Runnable() {
 					@Override
 					public void run() {

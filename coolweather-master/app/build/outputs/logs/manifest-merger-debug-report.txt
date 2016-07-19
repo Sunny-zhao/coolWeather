@@ -75,10 +75,10 @@ service#com.coolweather.app.service.AutoUpdateService
 ADDED from /Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/src/main/AndroidManifest.xml:36:9-37:19
 	android:name
 		ADDED from /Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/src/main/AndroidManifest.xml:36:18-78
-receiver#com.coolweather.app.receiver.AutoUpdateReceiver
+receiver#com.example.sunny.coolweather.service.AutoUpdateReceiver
 ADDED from /Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/src/main/AndroidManifest.xml:39:9-40:20
 	android:name
-		ADDED from /Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/src/main/AndroidManifest.xml:39:19-81
+		ADDED from /Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/src/main/AndroidManifest.xml:39:19-90
 activity#net.youmi.android.AdBrowser
 ADDED from /Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/src/main/AndroidManifest.xml:42:9-46:20
 	android:configChanges
