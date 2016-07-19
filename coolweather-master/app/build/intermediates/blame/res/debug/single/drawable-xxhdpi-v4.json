@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/logo.png",
+        "source": "/Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/src/main/res/drawable-xxhdpi/logo.png"
+    }
+]

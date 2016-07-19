@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="22"
+    density="xxhdpi"
+    format="7"
+    timestamp="1468837358849146000"
+    token="-164999995580105408" >
+
+    <task
+        name="javac"
+        duration="470" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="177" />
+    <task
+        name="verifier"
+        duration="17" />
+
+    <artifact
+        location="/Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="1468837358849146000" >
+        <artifact
+            location="/Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="aaa22577efa26a9281c0b948c56efa1ad30bff8b">
+        <dex dex="/Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_17ed14cef194ddbf954e05ca6e1fa3449be97e11/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="7fbf407cc6e5e6d825c7658eb5da91612126fccb">
+        <dex dex="/Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_372ce434555f1d6f0a16d79afffa8a74679b9e8e/classes.dex" />
+    </item>
+
+</items>

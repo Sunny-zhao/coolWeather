@@ -5,9 +5,9 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.sunny.coolweather.db.model.City;
-import com.example.sunny.coolweather.db.model.County;
-import com.example.sunny.coolweather.db.model.Province;
+import com.example.sunny.coolweather.model.City;
+import com.example.sunny.coolweather.model.County;
+import com.example.sunny.coolweather.model.Province;
 
 import java.util.ArrayList;
 import java.util.List;
