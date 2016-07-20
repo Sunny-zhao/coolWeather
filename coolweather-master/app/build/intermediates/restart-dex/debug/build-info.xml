@@ -4,35 +4,30 @@
     api-level="22"
     density="xxhdpi"
     format="7"
-    timestamp="1468925694716246000"
+    timestamp="1468988051400767000"
     token="-164999995580105408" >
 
     <task
         name="javac"
-        duration="153" />
+        duration="212" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="12" />
+        duration="28" />
     <task
         name="verifier"
-        duration="2" />
+        duration="9" />
 
     <artifact
-        location="/Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
-        type="DEX" />
+        location="/Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="1468925395375114000" >
+    <build timestamp="1468988051400767000" >
         <artifact
             location="/Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="1468925694716246000" >
-        <artifact
-            location="/Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

@@ -23,6 +23,7 @@ public class HttpUtil {
 					connection.setRequestMethod("GET");
 					connection.setConnectTimeout(8000);
 					connection.setReadTimeout(8000);
+                    connection.setRequestProperty("Accept-Encoding","");
 					InputStream in = connection.getInputStream();
 					BufferedReader reader = new BufferedReader(new InputStreamReader(in));
 
@@ -31,11 +32,6 @@ public class HttpUtil {
 					while ((line = reader.readLine()) != null) {
 						response.append(line);
 					}
-//					char [] temp=new char[1024];
-//					int length=0;
-//					while((length=reader.read(temp))>0){
-//						response.append(temp,0,length);
-//					}
 
 					Log.d(TAG, "run: after read");
 					if (listener != null) {
@@ -46,14 +42,7 @@ public class HttpUtil {
 					Log.d(TAG,"error when read line",e);
 					if (listener != null) {
 						// 回调onError()方法
-
-                        if (!address.endsWith("html")) {
-                            listener.onError(e);
-
-                        }else
-                        {
-                            listener.onFinish(response.toString());
-                        }
+                        listener.onError(e);
 					}
 				} finally {
 					if (connection != null) {

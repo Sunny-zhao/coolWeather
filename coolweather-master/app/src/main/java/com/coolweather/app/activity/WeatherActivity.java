@@ -8,12 +8,16 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.coolweather.app.R;
 import com.coolweather.app.service.AutoUpdateService;
@@ -85,6 +89,22 @@ public class WeatherActivity extends Activity implements OnClickListener{
 		}
 		switchCity.setOnClickListener(this);
 		refreshWeather.setOnClickListener(this);
+		Toast.makeText(getApplicationContext(),"默认样式",Toast.LENGTH_SHORT).show();
+		Toast	toast = Toast.makeText(getApplicationContext(),
+				"带图片的Toast", Toast.LENGTH_LONG);
+		toast.setGravity(Gravity.CENTER, 0, 0);
+		LinearLayout toastView = (LinearLayout) toast.getView();
+		ImageView imageCodeProject = new ImageView(getApplicationContext());
+		imageCodeProject.setImageResource(R.drawable.logo);
+		toastView.addView(imageCodeProject, 0);
+		toast.show();
+
+		toast = Toast.makeText(getApplicationContext(),
+				"自定义位置Toast", Toast.LENGTH_LONG);
+		toast.setGravity(Gravity.CENTER, 0, 0);
+		toast.show();
+
+        LayoutInflater inflater = getLayoutInflater();
 		//实例化广告条
 //	    AdView adView = new AdView(this, AdSize.FIT_SCREEN);
 //	    //获取要嵌入广告条的布局
