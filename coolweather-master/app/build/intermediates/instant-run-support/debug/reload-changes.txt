@@ -1,7 +1,0 @@
-CHANGED,/Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/coolweather/app/activity/WeatherActivity$1$2$override.class
-CHANGED,/Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/coolweather/app/activity/WeatherActivity$1$1$override.class
-CHANGED,/Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/coolweather/app/activity/WeatherActivity$1$override.class
-CHANGED,/Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/coolweather/app/activity/WeatherActivity$override.class
-CHANGED,/Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
-CHANGED,/Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/coolweather/app/util/HttpUtil$1$override.class
-CHANGED,/Users/zhaojun/Documents/AndroidStudy/coolWeather/coolweather-master/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/coolweather/app/util/HttpUtil$override.class
